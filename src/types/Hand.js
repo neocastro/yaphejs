@@ -1,4 +1,4 @@
-const { showADT } = require('./utils') 
+const { showADT } = require('../utils') 
 const { bimap, concat, curry, compose, flip, merge, Pair } = require('crocks')
 
 

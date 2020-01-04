@@ -15,7 +15,7 @@
  */
 
 const daggy = require('daggy')
-const { hasLengthN, quickSort } = require('./utils')
+const { hasLengthN, showADT } = require('../utils')
 
 const { 
   all, length, always, 
@@ -31,7 +31,6 @@ const {
   mreduceMap
 } = require('crocks')
 
-const { showADT } = require('./utils')
 
 const K = always
 
