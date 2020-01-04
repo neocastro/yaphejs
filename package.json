@@ -1,0 +1,32 @@
+{
+  "name": "yaphejs",
+  "version": "0.0.1",
+  "description": "Using Algebraic Data Types to evaluate Texas Hold'em hands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neocastro/yaphejs.git"
+  },
+  "keywords": [
+    "poker",
+    "adts",
+    "functional-programming"
+  ],
+  "author": "Yuri Carvalho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neocastro/yaphejs/issues"
+  },
+  "homepage": "https://github.com/neocastro/yaphejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "crocks": "^0.12.4",
+    "daggy": "^1.4.0",
+    "ramda": "^0.26.1"
+  }
+}
